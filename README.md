@@ -18,7 +18,7 @@ Suivez ces étapes pour télécharger et exécuter le script sur votre machine.
 
 Ouvrez votre terminal et clonez ce dépôt GitHub :
 ```bash
-git clone [https://github.com/JuFiSec/linux-backup-script.git](https://github.com/JuFiSec/linux-backup-script.git)
+git clone https://github.com/JuFiSec/linux-backup-script.git
 ```
 
 **2. Naviguer dans le dossier du projet**

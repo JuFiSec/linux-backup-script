@@ -1,4 +1,4 @@
-# 🔄 Script de sauvegarde automatique en Bash
+# Script de sauvegarde automatique en Bash
 
 **Auteur** : Dannie Junior FIENI ([JuFiSec](https://github.com/JuFiSec))  
 *Étudiant en Master 1 Cybersécurité & Cloud Computing à l'IPSSI Nice*

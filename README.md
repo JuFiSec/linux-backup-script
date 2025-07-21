@@ -10,6 +10,42 @@ Ce projet contient un script Bash robuste conçu pour automatiser la sauvegarde 
 Ce projet a été réalisé dans le cadre de ma montée en compétences sur les systèmes Linux et les pratiques DevOps.
 
 ---
+## ⚙️ Installation et Utilisation
+
+Suivez ces étapes pour télécharger et exécuter le script sur votre machine.
+
+**1. Cloner le dépôt**
+
+Ouvrez votre terminal et clonez ce dépôt GitHub :
+```bash
+git clone [https://github.com/JuFiSec/linux-backup-script.git](https://github.com/JuFiSec/linux-backup-script.git)
+```
+
+**2. Naviguer dans le dossier du projet**
+```bash
+cd linux-backup-script
+```
+
+**3. Rendre le script exécutable**
+
+Cette commande donne au système la permission d'exécuter le fichier. Vous n'avez besoin de le faire qu'une seule fois.
+```bash
+chmod +x backup.sh
+```
+
+**4. Lancer le script**
+
+Exécutez le script en spécifiant le dossier source à sauvegarder et le dossier de destination où l'archive sera créée.
+```bash
+# Syntaxe
+./backup.sh /chemin/vers/votre/source /chemin/vers/votre/destination
+
+# Exemple concret
+./backup.sh ~/Documents /var/backups/mes_documents
+```
+L'opération se lance, et tous les détails seront enregistrés dans le fichier `logs/backup.log`.
+
+---
 
 ## ⚙️ Fonctionnalités Détaillées
 
@@ -32,15 +68,12 @@ Le script `backup.sh` intègre plusieurs fonctionnalités pour garantir sa flexi
 
 ---
 
-## 📸 Captures d'écran
-
 ## 📸 Démonstration d'utilisation
 
 La capture d'écran ci-dessous montre le déroulement complet : la gestion d'erreur (quand les arguments manquent), la création d'un dossier de test, l'exécution réussie du script, et le contenu final du fichier de log qui confirme le bon fonctionnement.
 
-![Démonstration du script de sauvegarde](https://github.com/JuFiSec/nom-de-ton-repo/blob/main/image_4c3711.png)
+![Démonstration du script de sauvegarde](https://github.com/JuFiSec/linux-backup-script/blob/main/image_4c3711.png)
 
-*(**Note** : Pour que cette image s'affiche, tu dois uploader le fichier `image_4c3711.png` à la racine de ton dépôt GitHub, et ajuster le nom du repo dans l'URL ci-dessus si besoin.)*
 
 ---
 
